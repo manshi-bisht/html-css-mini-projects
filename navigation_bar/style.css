@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    background: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.content a {
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.content a:hover {
+    background: #e4a522;
+}
